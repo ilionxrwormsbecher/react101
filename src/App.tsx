@@ -6,6 +6,7 @@ import { SidebarComponent } from './components/sidebarComponent/SidebarComponent
 import { MainComponente } from './components/mainComponent/MainComponente';
 import { ICity } from './models/ICity';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { AddBootcampComponent1 } from './components/addBootcampComponent/AddBootcampComponent1';
 
 function App() {
   const [selectedCity, setSelectedCity] = useState<ICity>({} as ICity);
@@ -33,7 +34,7 @@ function App() {
             <Route path="/add-bootcamp">
               <div className="col-12 bootcamp-container">
 
-                <p>Add bootcamp</p>
+                <AddBootcampComponent1 />
               </div>
             </Route>
 
