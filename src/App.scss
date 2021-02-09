@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    a {
+        color: white;
+        text-decoration: none;
+        margin-right: 25px;
+    }
+
+    a:hover {
+        color: white;
+    }
+}
+
+.sidebar {
+    padding: 40px 25px;
+    width: 90%;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        border: 1px solid #ccc;
+        border-bottom: none;
+        width: 90%;
+
+        .active-city {
+            background: #8563c2;
+            color: white;
+        }
+
+        li {
+            display: block;
+            margin: 0;
+            padding: 10px 10px;
+            width: 100%;
+            cursor: pointer;
+            border-bottom: 1px solid #ccc;
+
+            &:hover {
+                background: #8563c2;
+                color: white;
+            }
+        }
+    }
+}
+
+.main {
+    margin: 40px 0px;
+    border: 1px solid #ccc;
+    padding: 15px;
+
+    h3 {
+        margin-bottom: 25px;
+        color: #8563c2;
+    }
+
+    img {
+        margin-bottom: 25px;
+        width: 100%;
+    }
+}
+
+.bootcamp-container {
+    margin: 40px auto;
+}
+
+.add-form {
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 100%;
+
+    .details-textarea {
+        height: 8rem;
+    }
+
+    .error-message {
+        margin-bottom: 5px;
+    }
+}
+
+.navbar {
+    background: #8563c2;
+    color: white;
+}
+
+
+.spinner {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8563c2;
+}
